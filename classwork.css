@@ -1,0 +1,31 @@
+*{
+font-weight: normal;
+margin: 0;
+padding: 0;
+}
+section{
+    padding: 30;
+}
+.nuga.ben{
+    background-color: black;
+    color: white;
+}
+.nuga{
+    background-color: moccasin;
+}
+p+h2{
+    font-weight: 700;
+}
+.ben > h2 {
+color: green;
+}
+.mighty li:first-child::first-letter{
+    text-transform: uppercase;
+    color: blue;
+}
+.mighty li:nth-child(2){
+    background-color: red;
+}
+.mighty li:nth-child(4) {
+    background-color: green;
+}
